@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest.Tests\\T29-UnitTest.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest.Tests\\T29-UnitTest.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest.Tests\\T29-UnitTest.Tests.csproj",
+        "projectName": "T29-UnitTest.Tests",
+        "projectPath": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest.Tests\\T29-UnitTest.Tests.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\T29-UnitTest.csproj": {
+                "projectPath": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\T29-UnitTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\T29-UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\T29-UnitTest.csproj",
+        "projectName": "T29-UnitTest",
+        "projectPath": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\T29-UnitTest.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\Desktop\\Proyectos\\Bootcamp\\Repositorios\\sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023\\T29-UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
