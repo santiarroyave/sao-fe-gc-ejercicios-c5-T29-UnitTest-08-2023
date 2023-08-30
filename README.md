@@ -1,7 +1,7 @@
 # C5-T29 UnitTest
 Ejercicio de realización de test
 
-## Enunciado : Tarea Pruebas Unitarias
+## Enunciado: Tarea Pruebas Unitarias
 - Archivos adjuntos: [Geometria.cs](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T29-UnitTest-08-2023/tree/main/Recursos)
 
 - Crear un proyecto en C# de WF .NET Core  e incluye la funcionalidad de la clase adjunta Geometría.
@@ -28,7 +28,7 @@ Ejercicio de realización de test
 7. En la nueva clase de pruebas:
     - Importar Xunit. `using Xunit;`
     - Crear un método con el mismo nombre del método que vamos a testear.
-    - Convertir el método en una prueba escribiendo encima: `[Fact]`
+    - Convertir el método en una prueba escribiendo encima: `[Fact]`. <br>*Para usar valores múltiples, revisar las notas.*
     - Crear una instancia de la clase. `Geometria g = new Geometria();`
     - Ejecutar un método de la instancia de esa clase almacenando el resultado. `int result = g.areacuadrado(2);`
     - Verificar el resultado. `Assert.Equal(4, result);`
@@ -72,3 +72,18 @@ Ejercicio de realización de test
 - En caso de usar **NUnit**
     - Importar: `using NUnit.Framework;`
     - Atributos: `[TestFixture]`, `[Test]` ...
+- Pruebas con múltiples valores:
+    - Atributos: `[Theory]`, `[InlineData()]`
+    - Ejemplo:
+        ```csharp
+        [Theory]
+        [InlineData(1, "Cuadrado")]
+        [InlineData(2, "Círculo")]
+        [InlineData(3, "Triángulo")]
+        public void figura(int figura, string resultadoEsperado)
+        {
+            Geometria g = new Geometria();
+            string result = g.figura(figura);
+            Assert.Equal(resultadoEsperado, result);
+        }
+        ```

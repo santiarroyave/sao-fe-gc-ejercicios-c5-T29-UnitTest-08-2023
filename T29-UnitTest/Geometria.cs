@@ -68,7 +68,7 @@ namespace Geometria
 			return b * h;
 		}
 
-		//metodo area del rectangulo
+		//metodo area del trapecio
 		public int areatrapecio(int B, int b, int h)
 		{
 			return ((B + b) / 2) * h;
